@@ -5,11 +5,18 @@ import (
 )
 
 func main() {
+	short_hand_slice()
 	slice_init1()
 	slice_init2()
 	slice_init3()
 	slice_init4()
 	slice_inc()
+}
+
+func short_hand_slice() {
+	student := []string{}
+	fmt.Println(student)
+	fmt.Println(student == nil)
 }
 
 func slice_init1() {
